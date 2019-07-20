@@ -10,3 +10,15 @@ C:\Users\mssantos6\Desktop\CODE\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2
 C:\Users\mssantos6\Desktop\CODE\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.csproj.CopyComplete
 C:\Users\mssantos6\Desktop\CODE\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.dll
 C:\Users\mssantos6\Desktop\CODE\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\bin\Debug\netcoreapp2.2\BP.Infra.Data.deps.json
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\bin\Debug\netcoreapp2.2\BP.Infra.Data.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\bin\Debug\netcoreapp2.2\BP.Infra.Data.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\bin\Debug\netcoreapp2.2\BP.Domain.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\bin\Debug\netcoreapp2.2\BP.Domain.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.csprojAssemblyReference.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.AssemblyInfo.cs
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.csproj.CopyComplete
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Data\obj\Debug\netcoreapp2.2\BP.Infra.Data.pdb

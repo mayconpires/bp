@@ -2894,7 +2894,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -4834,6 +4834,9 @@
       "BP.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "compile": {
           "bin/placeholder/BP.Models.dll": {}
         },
@@ -8210,10 +8213,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8236,7 +8239,7 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
@@ -13140,11 +13143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\API\\BP.API\\BP.API.csproj",
+      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\API\\BP.API\\BP.API.csproj",
       "projectName": "BP.API",
-      "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\API\\BP.API\\BP.API.csproj",
+      "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\API\\BP.API\\BP.API.csproj",
       "packagesPath": "C:\\Users\\mssantos6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\API\\BP.API\\obj\\",
+      "outputPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\API\\BP.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13163,14 +13166,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Application\\BP.Application\\BP.Application.csproj": {
-              "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Application\\BP.Application\\BP.Application.csproj"
+            "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Application\\BP.Application\\BP.Application.csproj": {
+              "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Application\\BP.Application\\BP.Application.csproj"
             },
-            "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Infra\\BP.IoC\\BP.IoC.csproj": {
-              "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Infra\\BP.IoC\\BP.IoC.csproj"
+            "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Infra\\BP.IoC\\BP.IoC.csproj": {
+              "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Infra\\BP.IoC\\BP.IoC.csproj"
             },
-            "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Models\\BP.Models\\BP.Models.csproj": {
-              "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Models\\BP.Models\\BP.Models.csproj"
+            "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Models\\BP.Models\\BP.Models.csproj": {
+              "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Models\\BP.Models\\BP.Models.csproj"
             }
           }
         }

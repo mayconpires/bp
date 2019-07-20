@@ -12,3 +12,15 @@ C:\Users\mssantos6\Desktop\CODE\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2
 C:\Users\mssantos6\Desktop\CODE\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.pdb
 C:\Users\mssantos6\Desktop\CODE\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
 C:\Users\mssantos6\Desktop\CODE\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Interface.deps.json
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Interface.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Interface.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Models.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Models.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.csproj.CoreCompileInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.AssemblyInfoInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.AssemblyInfo.cs
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.csproj.CopyComplete
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.csprojAssemblyReference.cache

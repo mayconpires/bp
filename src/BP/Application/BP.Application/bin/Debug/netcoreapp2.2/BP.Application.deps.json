@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "bce1eea197912b6f296ab29bb89915e93099392e"
+    "signature": "1ee1d739a1daa4deef994ffb73a49c40c34ed621"
   },
   "compilationOptions": {},
   "targets": {
@@ -38,6 +38,14 @@
         }
       },
       "Microsoft.CSharp/4.5.0": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
       "System.IO/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0",
@@ -102,18 +110,10 @@
       },
       "BP.Models/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "11.0.0.0"
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "BP.Models.dll": {}
-        }
-      },
-      "Newtonsoft.Json.Reference/11.0.0.0": {
-        "runtime": {
-          "Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
-          }
         }
       }
     }
@@ -144,6 +144,13 @@
       "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "path": "microsoft.csharp/4.5.0",
       "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",
@@ -213,11 +220,6 @@
     },
     "BP.Models/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Newtonsoft.Json.Reference/11.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

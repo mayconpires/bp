@@ -733,11 +733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Infra\\BP.Infra.Data\\BP.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Infra\\BP.Infra.Data\\BP.Infra.Data.csproj",
       "projectName": "BP.Infra.Data",
-      "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Infra\\BP.Infra.Data\\BP.Infra.Data.csproj",
+      "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Infra\\BP.Infra.Data\\BP.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\mssantos6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Infra\\BP.Infra.Data\\obj\\",
+      "outputPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Infra\\BP.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -756,8 +756,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj": {
-              "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj"
+            "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj": {
+              "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj"
             }
           }
         }

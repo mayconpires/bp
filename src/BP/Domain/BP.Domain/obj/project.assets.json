@@ -715,11 +715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj",
       "projectName": "BP.Domain",
-      "projectPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj",
+      "projectPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Domain\\BP.Domain\\BP.Domain.csproj",
       "packagesPath": "C:\\Users\\mssantos6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mssantos6\\Desktop\\CODE\\src\\BP\\Domain\\BP.Domain\\obj\\",
+      "outputPath": "C:\\Users\\mssantos6\\Desktop\\BP\\bp\\src\\BP\\Domain\\BP.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
