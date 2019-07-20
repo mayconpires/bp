@@ -28,6 +28,7 @@ namespace BP.Domain.Core.TransactionAgg.Commands.Handlers
             if (mdrAdquirente == null)
             {
                 _notificationDomainService.Add(code: NotificationMessages.MdrAdquirenteNotExistKey, value: NotificationMessages.MdrAdquirenteNotExistValue);
+                return null;
             }
 
             return await Task.Run( () => Transaction.Create(0, "", "", "") );

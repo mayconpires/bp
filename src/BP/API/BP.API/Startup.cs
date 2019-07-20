@@ -4,7 +4,9 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using BP.API.Shared.Validation;
 using BP.Application.Services.Core;
+using BP.Domain.Shared.Attributes;
 using BP.Interface.Application.Core.MDR;
 using BP.Interface.Application.Core.Transaction;
 using BP.IoC.Setup;
@@ -14,6 +16,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -38,7 +41,9 @@ namespace BP.API
         {
             //CultureInfo.CurrentCulture = new CultureInfo("pt-BR");
 
-            services.AddMvc()
+            services.AddMvc(options =>
+                {
+                })
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(options =>
                 {
@@ -46,10 +51,16 @@ namespace BP.API
                     options.SerializerSettings.ContractResolver = new DefaultContractResolver();
                     //options.SerializerSettings.Culture = CultureInfo.CurrentCulture;
                     //options.SerializerSettings.Converters.Add(new DecimalFormatConverter());
+                })
+                .ConfigureApiBehaviorOptions(options =>
+                {
+                    options.SuppressUseValidationProblemDetailsForInvalidModelStateResponses = true;
+                    
                 });
 
             services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly);
             //services.AddMediatR(typeof(Startup));
+            //services.AddSingleton<IObjectModelValidator>(new NullObjectModelValidator());
 
             Injector.RegisterServices(services: services, configuration: Configuration);
         }

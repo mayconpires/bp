@@ -1,4 +1,5 @@
-﻿using BP.Domain.Shared.Notification;
+﻿using BP.Domain.Shared.Attributes;
+using BP.Domain.Shared.Notification;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace BP.API.Shared
 {
-    public class SharedController : ControllerBase
+    [TypeFilter(typeof(ValidateNotationAttribute), Order = 0)]
+    public class SharedController : Controller
     {
         protected readonly INotificationDomainService _notifications;
 

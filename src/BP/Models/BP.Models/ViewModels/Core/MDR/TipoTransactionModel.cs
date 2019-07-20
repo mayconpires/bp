@@ -9,10 +9,16 @@ namespace BP.Models.ViewModels.Core.MDR
 {
     public enum TipoTransactionModel
     {
+        /// <summary>
+        /// Transaction do Tipo Débito
+        /// </summary>
         [JsonConverter(typeof(StringEnumConverter))]
         [EnumMember(Value = "Debito")]
         Debito,
 
+        /// <summary>
+        /// Transaction do Tipo Crédito
+        /// </summary>
         [JsonConverter(typeof(StringEnumConverter))]
         [EnumMember(Value = "Credito")]
         Credito
