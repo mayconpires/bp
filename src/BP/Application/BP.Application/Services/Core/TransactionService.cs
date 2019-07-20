@@ -21,7 +21,7 @@ namespace BP.Application.Services.Core
             _bus = mediator;
         }
 
-        async Task<TransactionTaxaGetResponseModel> ITransactionService.Perform(TransactionPostRequestModel transactionModel)
+        async Task<TransactionTaxaGetResponseModel> ITransactionService.Create(TransactionPostRequestModel transactionModel)
         {
             var createTransactionCommand = _mapper.Map<CreateTransactionCommand>(transactionModel);
 

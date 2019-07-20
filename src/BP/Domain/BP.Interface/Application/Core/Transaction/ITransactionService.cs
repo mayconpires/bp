@@ -9,7 +9,7 @@ namespace BP.Interface.Application.Core.Transaction
     public interface ITransactionService
     {
 
-        Task<TransactionTaxaGetResponseModel> Perform(TransactionPostRequestModel transactionModel);
+        Task<TransactionTaxaGetResponseModel> Create(TransactionPostRequestModel transactionModel);
 
     }
 }

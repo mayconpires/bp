@@ -5,6 +5,7 @@ using BP.Domain.Core.MdrAgg.Repository;
 using BP.Domain.Core.TransactionAgg;
 using BP.Domain.Core.TransactionAgg.Commands;
 using BP.Domain.Core.TransactionAgg.Commands.Handlers;
+using BP.Domain.Core.TransactionAgg.Repository;
 using BP.Domain.Shared.Notification;
 using BP.Infra.Data.Repository;
 using BP.Interface.Application.Core.MDR;
@@ -44,6 +45,7 @@ namespace BP.IoC.Setup
         private static void RegisterRepository(IServiceCollection services)
         {
             services.AddScoped<IMdrRepository, MdrRepository>();
+            services.AddScoped<ITransactionRepository, TransactionRepository>();
         }
 
         private static void RegisterMapper(IServiceCollection services)

@@ -1,0 +1,100 @@
+[
+  {
+    "valor": 100,
+    "adquirente": "A",
+    "bandeira": "Visa",
+    "tipo": "Debito",
+    "ValorLiquido": 98.00,
+    "Taxa": 2.00
+  },
+  {
+    "valor": 100,
+    "adquirente": "A",
+    "bandeira": "Visa",
+    "tipo": "Credito",
+    "ValorLiquido": 97.75,
+    "Taxa": 2.25
+  },
+  {
+    "valor": 100,
+    "adquirente": "A",
+    "bandeira": "Master",
+    "tipo": "Debito",
+    "ValorLiquido": 98.02,
+    "Taxa": 1.98
+  },
+  {
+    "valor": 100,
+    "adquirente": "A",
+    "bandeira": "Master",
+    "tipo": "Credito",
+    "ValorLiquido": 97.65,
+    "Taxa": 2.35
+  },
+
+  {
+    "valor": 777.77,
+    "adquirente": "B",
+    "bandeira": "Visa",
+    "tipo": "Debito",
+    "ValorLiquido": 761.59,
+    "Taxa": 2.08
+  },
+  {
+    "valor": 777.77,
+    "adquirente": "B",
+    "bandeira": "Visa",
+    "tipo": "Credito",
+    "ValorLiquido": 758.33,
+    "Taxa": 2.50
+  },
+  {
+    "valor": 777.77,
+    "adquirente": "B",
+    "bandeira": "Master",
+    "tipo": "Debito",
+    "ValorLiquido": 764.16,
+    "Taxa": 1.75
+  },
+  {
+    "valor": 777.77,
+    "adquirente": "B",
+    "bandeira": "Master",
+    "tipo": "Credito",
+    "ValorLiquido": 757.16,
+    "Taxa": 2.65
+  },
+
+  {
+    "valor": 313952754.01,
+    "adquirente": "C",
+    "bandeira": "Visa",
+    "tipo": "Debito",
+    "ValorLiquido": 307171374.52,
+    "Taxa": 2.16
+  },
+  {
+    "valor": 313952754.01,
+    "adquirente": "C",
+    "bandeira": "Visa",
+    "tipo": "Credito",
+    "ValorLiquido": 305319053.27,
+    "Taxa": 2.75
+  },
+  {
+    "valor": 313952754.01,
+    "adquirente": "C",
+    "bandeira": "Master",
+    "tipo": "Debito",
+    "ValorLiquido": 308992300.50,
+    "Taxa": 1.58
+  },
+  {
+    "valor": 313952754.01,
+    "adquirente": "C",
+    "bandeira": "Master",
+    "tipo": "Credito",
+    "ValorLiquido": 304220218.64,
+    "Taxa": 3.10
+  }
+]

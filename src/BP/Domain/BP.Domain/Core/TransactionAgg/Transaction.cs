@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BP.Domain.Core.MdrAgg;
+using BP.Domain.Core.MdrAgg.Enums;
+using BP.Domain.Core.TransactionAgg.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,12 +13,13 @@ namespace BP.Domain.Core.TransactionAgg
         {
         }
 
-        public static Transaction Create(decimal valor, string adquirente, string bandeira, string tipo)
+        public static Transaction Create(Mdr mdrAdquirente, decimal valor, TipoTransaction tipo, BandeiraTipo bandeira)
         {
             var transaction = new Transaction();
 
             transaction.Valor = valor;
-            transaction.Adquirente = adquirente;
+            transaction.ValorLiquido = mdrAdquirente.CalcularValorLiquido(valor: valor, tipoTransaction: tipo, bandeira: bandeira);
+            transaction.Adquirente = mdrAdquirente.IdAdquirente;
             transaction.Bandeira = bandeira;
             transaction.Tipo = tipo;
 
@@ -28,9 +32,9 @@ namespace BP.Domain.Core.TransactionAgg
 
         public string Adquirente { get; private set; }
 
-        public string Bandeira { get; private set; }
+        public BandeiraTipo Bandeira { get; private set; }
 
-        public string Tipo { get; private set; }
+        public TipoTransaction Tipo { get; private set; }
 
 
     }

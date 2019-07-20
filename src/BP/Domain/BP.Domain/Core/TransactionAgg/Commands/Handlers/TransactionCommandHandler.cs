@@ -1,4 +1,5 @@
 ﻿using BP.Domain.Core.MdrAgg.Repository;
+using BP.Domain.Core.TransactionAgg.Repository;
 using BP.Domain.Shared.Messages;
 using BP.Domain.Shared.Notification;
 using MediatR;
@@ -12,27 +13,38 @@ namespace BP.Domain.Core.TransactionAgg.Commands.Handlers
 {
     public class TransactionCommandHandler : IRequestHandler<CreateTransactionCommand, Transaction>
     {
-        private readonly IMdrRepository _mdrRepository;
         private readonly INotificationDomainService _notificationDomainService;
+        private readonly IMdrRepository _mdrRepository;
+        private readonly ITransactionRepository _transactionRepository;
 
-        public TransactionCommandHandler(INotificationDomainService notificationDomainService, IMdrRepository mdrRepository)
+        public TransactionCommandHandler(INotificationDomainService notificationDomainService, IMdrRepository mdrRepository,
+                                         ITransactionRepository transactionRepository)
+
         {
             _notificationDomainService = notificationDomainService;
             _mdrRepository = mdrRepository;
+            _transactionRepository = transactionRepository;
         }
 
-        async Task<Transaction> IRequestHandler<CreateTransactionCommand, Transaction>.Handle(CreateTransactionCommand createTransactionCommand, CancellationToken cancellationToken)
+        async Task<Transaction> IRequestHandler<CreateTransactionCommand, Transaction>.Handle(CreateTransactionCommand transactionCmd, CancellationToken cancellationToken)
         {
-            var mdrAdquirente = await _mdrRepository.GetById(createTransactionCommand.Adquirente);
+            var mdrAdquirente = await _mdrRepository.GetById(transactionCmd.Adquirente);
 
-            if (mdrAdquirente == null)
+            if (mdrAdquirente == null)  
             {
                 _notificationDomainService.Add(code: NotificationMessages.MdrAdquirenteNotExistKey, value: NotificationMessages.MdrAdquirenteNotExistValue);
                 return null;
             }
 
-            return await Task.Run( () => Transaction.Create(0, "", "", "") );
+            var newTransaction = Transaction.Create(mdrAdquirente: mdrAdquirente,
+                                                    valor: transactionCmd.Valor, 
+                                                    tipo: transactionCmd.Tipo, 
+                                                    bandeira: transactionCmd.Bandeira);
 
+
+            newTransaction = _transactionRepository.Add(newTransaction);
+
+            return newTransaction;
         }
 
     }

@@ -15,9 +15,7 @@ namespace BP.API.Controllers
     [ValidateNotation(Order = 0)]
     [Route("transaction")]
     [Produces("application/json")]
-    //[TypeFilter(typeof(ValidateNotationAttribute), Order = 1)]
     public class TransactionController : SharedController
-    //public class TransactionController : ControllerBase
     {
         ITransactionService _transactionService;
 
@@ -30,9 +28,9 @@ namespace BP.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TransactionPostRequestModel body)
         {
-            var transactionTax = await _transactionService.Perform(body);
+            var transaction = await _transactionService.Create(body);
 
-            return ResponseData(body, HttpReturn.Created);
+            return ResponseData(transaction, HttpReturn.Created);
         }
 
     }
