@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\BP.Application\BP.Application.csproj" />
+    <ProjectReference Include="..\..\Domain\BP.Domain\BP.Domain.csproj" />
+    <ProjectReference Include="..\..\Models\BP.Models\BP.Models.csproj" />
+    <ProjectReference Include="..\BP.Infra.Data\BP.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

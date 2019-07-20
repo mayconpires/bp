@@ -1,0 +1,12 @@
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\bin\Debug\netcoreapp2.2\BP.Models.deps.json
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\bin\Debug\netcoreapp2.2\BP.Models.dll
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\bin\Debug\netcoreapp2.2\BP.Models.pdb
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.csproj.CoreCompileInputs.cache
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.AssemblyInfoInputs.cache
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.AssemblyInfo.cs
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.dll
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.pdb
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.csprojAssemblyReference.cache
+C:\Users\mssantos6\Desktop\CODE\src\BP\Models\BP.Models\obj\Debug\netcoreapp2.2\BP.Models.csproj.CopyComplete

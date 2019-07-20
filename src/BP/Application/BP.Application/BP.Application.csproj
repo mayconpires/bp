@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\BP.Domain\BP.Domain.csproj" />
+    <ProjectReference Include="..\..\Domain\BP.Interface\BP.Interface.csproj" />
+    <ProjectReference Include="..\..\Models\BP.Models\BP.Models.csproj" />
+  </ItemGroup>
+
+</Project>
