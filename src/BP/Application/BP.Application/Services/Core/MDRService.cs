@@ -29,9 +29,7 @@ namespace BP.Application.Services.Core
 
             var mdrsModel =  _mapper.Map<IEnumerable<MdrGetResposeModel>>(mdrs);
 
-            //var createTransactionCommand = new CreateTransactionCommand();
-            //createTransactionCommand.Valor = 50;
-            //await _bus.Send(createTransactionCommand);
+            
 
             return mdrsModel;
         }

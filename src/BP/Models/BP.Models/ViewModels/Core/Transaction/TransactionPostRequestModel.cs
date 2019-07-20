@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BP.Models.ViewModels.Core.MDR;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,9 +12,9 @@ namespace BP.Models.ViewModels.Core.Transaction
 
         public string Adquirente { get; set; }
 
-        public string Bandeira { get; set; }
+        public BandeiraTipoModel Bandeira { get; set; }
 
-        public string Tipo { get; set; }
+        public TipoTransactionModel Tipo { get; set; }
 
     }
 }

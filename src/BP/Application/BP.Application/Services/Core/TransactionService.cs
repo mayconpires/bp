@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BP.Domain.Core.TransactionAgg.Commands;
 using BP.Interface.Application.Core.Transaction;
 using BP.Models.ViewModels.Core.Transaction;
 using MediatR;
@@ -11,7 +12,6 @@ namespace BP.Application.Services.Core
 {
     public class TransactionService : ITransactionService
     {
-
         private readonly IMapper _mapper;
         private readonly IMediator _bus;
 
@@ -21,9 +21,15 @@ namespace BP.Application.Services.Core
             _bus = mediator;
         }
 
-        Task<TransactionTaxaGetResponseModel> ITransactionService.Perform(TransactionPostRequestModel transactionModel)
+        async Task<TransactionTaxaGetResponseModel> ITransactionService.Perform(TransactionPostRequestModel transactionModel)
         {
-            throw new NotImplementedException();
+            var createTransactionCommand = _mapper.Map<CreateTransactionCommand>(transactionModel);
+
+            var newTransaction = await _bus.Send(createTransactionCommand);
+            
+            var response = _mapper.Map<TransactionTaxaGetResponseModel>(newTransaction);
+
+            return response;
         }
 
     }

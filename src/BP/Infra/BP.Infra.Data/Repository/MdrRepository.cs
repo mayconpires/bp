@@ -4,6 +4,7 @@ using BP.Domain.Core.MdrAgg.Repository;
 using BP.Domain.Shared.Repository;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,11 +24,18 @@ namespace BP.Infra.Data.Repository
 
         Task<List<Mdr>> IRepository<Mdr>.GetAll()
         {
+            List<Mdr> mdrs = getMdrs();
+
+            return Task.Run(() => mdrs);
+        }
+
+        private static List<Mdr> getMdrs()
+        {
             List<Mdr> mdrs = new List<Mdr>();
 
             Mdr mdrAdquirenteA = Mdr.Criar(idAdquirente: "A", adquirente: "Adquirente A");
 
-            mdrAdquirenteA.AddTaxa(BandeiraTipo.Visa, taxaCredito: 2.25m, taxaDebito: 2.00m);  
+            mdrAdquirenteA.AddTaxa(BandeiraTipo.Visa, taxaCredito: 2.25m, taxaDebito: 2.00m);
             mdrAdquirenteA.AddTaxa(BandeiraTipo.Master, taxaCredito: 2.35m, taxaDebito: 1.98m);
 
             mdrs.Add(mdrAdquirenteA);
@@ -45,9 +53,16 @@ namespace BP.Infra.Data.Repository
             mdrAdquirenteC.AddTaxa(BandeiraTipo.Master, taxaCredito: 3.10m, taxaDebito: 1.58m);
 
             mdrs.Add(mdrAdquirenteC);
-
-            return Task.Run(() => mdrs);
+            return mdrs;
         }
 
+        Task<Mdr> IRepository<Mdr>.GetById(string id)
+        {
+            var mdrs = getMdrs();
+
+            var mdrAdquirente = mdrs?.FirstOrDefault(m => m.IdAdquirente.ToLower() == id.ToLower());
+
+            return Task.Run(() => mdrAdquirente);
+        }
     }
 }

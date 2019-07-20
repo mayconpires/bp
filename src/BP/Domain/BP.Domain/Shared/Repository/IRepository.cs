@@ -10,5 +10,6 @@ namespace BP.Domain.Shared.Repository
         TEntity Add(TEntity entity);
         TEntity Get();
         Task<List<TEntity>> GetAll();
+        Task<TEntity> GetById(string id);
     }
 }

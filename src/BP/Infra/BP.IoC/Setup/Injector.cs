@@ -5,6 +5,7 @@ using BP.Domain.Core.MdrAgg.Repository;
 using BP.Domain.Core.TransactionAgg;
 using BP.Domain.Core.TransactionAgg.Commands;
 using BP.Domain.Core.TransactionAgg.Commands.Handlers;
+using BP.Domain.Shared.Notification;
 using BP.Infra.Data.Repository;
 using BP.Interface.Application.Core.MDR;
 using BP.Interface.Application.Core.Transaction;
@@ -25,8 +26,12 @@ namespace BP.IoC.Setup
             RegisterApplication(services);
             RegisterRepository(services);
             RegisterMapper(services);
+            RegisterCommandHandler(services);
+            RegisterDomainService(services);
+        }
 
-            // Domain - Commands
+        private static void RegisterCommandHandler(IServiceCollection services)
+        {
             services.AddScoped<IRequestHandler<CreateTransactionCommand, Transaction>, TransactionCommandHandler>();
         }
 
@@ -46,6 +51,7 @@ namespace BP.IoC.Setup
             var config = new MapperConfiguration(x =>
             {
                 x.AddProfile(new MdrProfile());
+                x.AddProfile(new TransactionProfile());
 
                 x.AllowNullCollections = true;
                 x.AllowNullDestinationValues = true;
@@ -54,6 +60,11 @@ namespace BP.IoC.Setup
             var mapper = config.CreateMapper();
 
             services.AddSingleton(mapper);
+        }
+
+        private static void RegisterDomainService(IServiceCollection services)
+        {
+            services.AddScoped<INotificationDomainService, NotificationDomainService>();
         }
     }
 }
