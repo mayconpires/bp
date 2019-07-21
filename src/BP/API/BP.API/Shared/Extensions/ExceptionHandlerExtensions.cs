@@ -16,6 +16,12 @@ namespace BP.API.Shared.Extensions
     public static class ExceptionHandlerExtensions
     {
 
+        /// <summary>
+        /// Midleware para capturar as exceptions.
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="configuration"></param>
+        /// <param name="env"></param>
         public static void UseGlobalExceptionHandler(this IApplicationBuilder app, IConfiguration configuration, IHostingEnvironment env)
         {
             ICorrelationContextAccessor correlationContextAccessor = (ICorrelationContextAccessor)app.ApplicationServices.GetService(typeof(ICorrelationContextAccessor));

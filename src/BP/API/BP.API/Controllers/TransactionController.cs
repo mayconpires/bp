@@ -28,8 +28,6 @@ namespace BP.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TransactionPostRequestModel body)
         {
-            //TODO Remover
-
             var transaction = await _transactionService.Create(body);
 
             return ResponseData(transaction, HttpReturn.Created);
