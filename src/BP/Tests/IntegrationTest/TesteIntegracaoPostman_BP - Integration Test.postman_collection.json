@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "f104c26c-fcf1-4c1e-891b-f399ccd97dd7",
+		"name": "BP - Integration Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Transaction - Integration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8d1a6e7f-6883-4474-9820-7dc2bc7f15dd",
+						"exec": [
+							"var response = pm.response.json();",
+							" ",
+							"var ValorLiquido = pm.variables.get(\"ValorLiquido\");",
+							"var adquirente = pm.variables.get(\"adquirente\");",
+							"var bandeira = pm.variables.get(\"bandeira\");",
+							"var tipo = pm.variables.get(\"tipo\");",
+							"var taxa = pm.variables.get(\"Taxa\");",
+							"",
+							"console.log(ValorLiquido);",
+							" ",
+							"pm.test(\"Dado a Adquirente: \" + adquirente + \" na Bandeira \" + bandeira + \" no \" + tipo + \" com taxa: \" + taxa, ",
+							"    function() {",
+							"        ",
+							"    }); ",
+							" ",
+							"pm.test(\"Adquirente: \" + adquirente + \" - Deve ter ValorLiquido: \" + ValorLiquido, function () {",
+							"    pm.expect(response.ValorLiquido).to.eql(ValorLiquido);",
+							"});",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"valor\": {{valor}},\r\n\"adquirente\": \"{{adquirente}}\",\r\n  \"bandeira\": \"{{bandeira}}\",\r\n  \"tipo\": \"{{tipo}}\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "{{urlbase}}transaction",
+					"host": [
+						"{{urlbase}}transaction"
+					]
+				},
+				"description": "Obtém as mdrs."
+			},
+			"response": []
+		}
+	]
+}

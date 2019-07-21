@@ -39,7 +39,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTest", "Integrat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{65DF9CE4-01B7-44D3-A8EC-CC52D044DEA9}"
 	ProjectSection(SolutionItems) = preProject
+		Tests\IntegrationTest\AmbientePostman_Azure-BP.postman_environment.json = Tests\IntegrationTest\AmbientePostman_Azure-BP.postman_environment.json
 		Tests\IntegrationTest\BP_Postman_Dataset.json = Tests\IntegrationTest\BP_Postman_Dataset.json
+		Tests\IntegrationTest\TesteIntegracaoPostman_BP - Integration Test.postman_collection.json = Tests\IntegrationTest\TesteIntegracaoPostman_BP - Integration Test.postman_collection.json
 		Tests\IntegrationTest\Transaction_ValorLiquido_ProvaReal.xls = Tests\IntegrationTest\Transaction_ValorLiquido_ProvaReal.xls
 	EndProjectSection
 EndProject

@@ -1,5 +1,14 @@
 # Desafio Braspag - API de Pagamento
 
+## Executar o Projeto
+
+- O sistema esta hospedado na máquina virtual da Azure no Windows Server. O IIS e o .Net Core 2.2 foram instalados no servidor.
+
+**URL**
+
+- http://191.232.162.9/
+- Documentação da API: http://191.232.162.9/swagger
+
 ## Tecnologias e Padrões Utilizados 
 
 - **Framework** .Net Core 2.2 com C#
