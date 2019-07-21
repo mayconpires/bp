@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "3a8bba1f6919d5863a053bee525a288726a61ef3"
+    "signature": "400e2f011879c43c3d1c97e0859048b42e0417ff"
   },
   "compilationOptions": {
     "defines": [
@@ -52,6 +52,22 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "CorrelationId/2.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.4/CorrelationId.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/CorrelationId.dll": {}
         }
       },
       "MediatR/7.0.0": {
@@ -260,6 +276,41 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "Serilog/2.8.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/4.0.0": {
+        "dependencies": {
+          "Serilog": "2.8.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Timer": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
+        }
+      },
       "System.Composition/1.0.31": {
         "dependencies": {
           "System.Composition.AttributedModel": "1.0.31",
@@ -397,6 +448,13 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Threading.Timer/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.2.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "BP.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "8.1.1",
@@ -433,6 +491,19 @@
           "BP.Infra.Data.dll": {}
         }
       },
+      "BP.Infra.Log/1.0.0": {
+        "dependencies": {
+          "CorrelationId": "2.1.0",
+          "Serilog": "2.8.0",
+          "Serilog.Sinks.File": "4.0.0"
+        },
+        "runtime": {
+          "BP.Infra.Log.dll": {}
+        },
+        "compile": {
+          "BP.Infra.Log.dll": {}
+        }
+      },
       "BP.Interface/1.0.0": {
         "dependencies": {
           "BP.Models": "1.0.0"
@@ -449,6 +520,7 @@
           "BP.Application": "1.0.0",
           "BP.Domain": "1.0.0",
           "BP.Infra.Data": "1.0.0",
+          "BP.Infra.Log": "1.0.0",
           "BP.Models": "1.0.0",
           "MediatR": "7.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0",
@@ -3676,6 +3748,13 @@
       "path": "automapper/8.1.1",
       "hashPath": "automapper.8.1.1.nupkg.sha512"
     },
+    "CorrelationId/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xj0QBxKHArtnnawlTreLJs48niGX/BfXaa8Ff0p6jCYg5NzmV4r6aFcRwC8AKtFk/1vq3CMcAGM3vkoWi3F9pg==",
+      "path": "correlationid/2.1.0",
+      "hashPath": "correlationid.2.1.0.nupkg.sha512"
+    },
     "MediatR/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3774,6 +3853,20 @@
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
     },
+    "Serilog/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "path": "serilog/2.8.0",
+      "hashPath": "serilog.2.8.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zWVGmDMLHqKg4zGh4dJgKee3yMLgMSLIFdBhXQUGKGJG6F4rpQJmp/Ts+SYBkmjCfsAbUh8NtJfXXGCEOf9mXg==",
+      "path": "serilog.sinks.file/4.0.0",
+      "hashPath": "serilog.sinks.file.4.0.0.nupkg.sha512"
+    },
     "System.Composition/1.0.31": {
       "type": "package",
       "serviceable": true,
@@ -3823,6 +3916,13 @@
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
+    "System.Threading.Timer/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saGfUV8uqVW6LeURiqxcGhZ24PzuRNaUBtbhVeuUAvky1naH395A/1nY0P2bWvrw/BreRtIB/EzTDkGBpqCwEw==",
+      "path": "system.threading.timer/4.0.1",
+      "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
+    },
     "BP.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3834,6 +3934,11 @@
       "sha512": ""
     },
     "BP.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BP.Infra.Log/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

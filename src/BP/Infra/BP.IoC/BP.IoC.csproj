@@ -16,6 +16,7 @@
     <ProjectReference Include="..\..\Domain\BP.Domain\BP.Domain.csproj" />
     <ProjectReference Include="..\..\Models\BP.Models\BP.Models.csproj" />
     <ProjectReference Include="..\BP.Infra.Data\BP.Infra.Data.csproj" />
+    <ProjectReference Include="..\BP.Infra.Log\BP.Infra.Log.csproj" />
   </ItemGroup>
 
 </Project>

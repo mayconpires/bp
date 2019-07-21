@@ -10,11 +10,10 @@ C:\Users\mssantos6\Desktop\CODE\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\bin\Debug\netcoreapp2.2\BP.Domain.deps.json
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\bin\Debug\netcoreapp2.2\BP.Domain.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\bin\Debug\netcoreapp2.2\BP.Domain.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.Shared.Messages.NotificationMessages.resources
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.csproj.GenerateResource.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.csproj.CoreCompileInputs.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.AssemblyInfoInputs.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.AssemblyInfo.cs
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.pdb
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.Shared.Messages.NotificationMessages.resources
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.csproj.GenerateResource.cache
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.csprojAssemblyReference.cache

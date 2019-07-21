@@ -43,6 +43,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{65DF
 		Tests\IntegrationTest\Transaction_ValorLiquido_ProvaReal.xls = Tests\IntegrationTest\Transaction_ValorLiquido_ProvaReal.xls
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crosscutting", "Crosscutting", "{7828A057-8B93-4B56-831C-2290637672C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Infra.Log", "Infra\BP.Infra.Log\BP.Infra.Log.csproj", "{94EB5EFC-7C68-4697-97D8-232A18005BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{015AACA3-EC09-4AED-856D-33EF04B1CF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015AACA3-EC09-4AED-856D-33EF04B1CF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015AACA3-EC09-4AED-856D-33EF04B1CF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EB5EFC-7C68-4697-97D8-232A18005BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EB5EFC-7C68-4697-97D8-232A18005BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EB5EFC-7C68-4697-97D8-232A18005BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EB5EFC-7C68-4697-97D8-232A18005BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +106,8 @@ Global
 		{015AACA3-EC09-4AED-856D-33EF04B1CF61} = {486F4CE3-0560-4373-8659-C951C2D8DE6A}
 		{A5766C8E-054A-45C7-A332-8CCB593055EB} = {0E89A6F0-F2BB-4309-8D04-254EEC19606A}
 		{65DF9CE4-01B7-44D3-A8EC-CC52D044DEA9} = {A5766C8E-054A-45C7-A332-8CCB593055EB}
+		{7828A057-8B93-4B56-831C-2290637672C9} = {47536B86-A20D-4F25-B264-1843237A55BC}
+		{94EB5EFC-7C68-4697-97D8-232A18005BDB} = {7828A057-8B93-4B56-831C-2290637672C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B29C5979-6465-492F-82CF-5D1FF67812CE}

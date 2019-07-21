@@ -26,12 +26,14 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Application.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Domain.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Infra.Data.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Infra.Log.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Interface.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Models.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Application.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Domain.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Models.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Infra.Data.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Infra.Log.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Debug\netcoreapp2.2\BP.Interface.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\obj\Debug\netcoreapp2.2\BP.IoC.csprojAssemblyReference.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\obj\Debug\netcoreapp2.2\BP.IoC.csproj.CoreCompileInputs.cache

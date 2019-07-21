@@ -25,6 +25,12 @@ C:\Users\mssantos6\Desktop\CODE\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API
 C:\Users\mssantos6\Desktop\CODE\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csproj.CopyComplete
 C:\Users\mssantos6\Desktop\CODE\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.dll
 C:\Users\mssantos6\Desktop\CODE\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csprojAssemblyReference.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csproj.CoreCompileInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.RazorAssemblyInfo.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.RazorAssemblyInfo.cs
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.AssemblyInfoInputs.cache
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.AssemblyInfo.cs
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.API.deps.json
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.API.runtimeconfig.json
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.API.runtimeconfig.dev.json
@@ -33,6 +39,7 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.AP
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Application.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Domain.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Infra.Data.dll
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Infra.Log.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Interface.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.IoC.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Models.dll
@@ -41,13 +48,8 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Io
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Models.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Domain.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Infra.Data.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Infra.Log.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Debug\netcoreapp2.2\BP.Interface.pdb
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csprojAssemblyReference.cache
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csproj.CoreCompileInputs.cache
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.RazorAssemblyInfo.cache
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.RazorAssemblyInfo.cs
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.AssemblyInfoInputs.cache
-C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.AssemblyInfo.cs
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.RazorTargetAssemblyInfo.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.csproj.CopyComplete
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Debug\netcoreapp2.2\BP.API.dll

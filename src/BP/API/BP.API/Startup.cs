@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using BP.API.Shared.Extensions;
 using BP.API.Shared.Validation;
 using BP.Application.Services.Core;
 using BP.Domain.Shared.Attributes;
@@ -11,6 +12,7 @@ using BP.Interface.Application.Core.MDR;
 using BP.Interface.Application.Core.Transaction;
 using BP.IoC.Setup;
 using BP.Models.Shared.Json;
+using CorrelationId;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,7 +41,15 @@ namespace BP.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //CultureInfo.CurrentCulture = new CultureInfo("pt-BR");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+
+            CultureInfo.CurrentCulture = new CultureInfo("en-US");
+
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("en-US");
+                options.SupportedCultures = new List<CultureInfo> { new CultureInfo("en-US") };
+            });
 
             services.AddMvc(options =>
                 {
@@ -50,7 +60,6 @@ namespace BP.API
                     options.SerializerSettings.Converters.Add(new StringEnumConverter { CamelCaseText = false });
                     options.SerializerSettings.ContractResolver = new DefaultContractResolver();
                     //options.SerializerSettings.Culture = CultureInfo.CurrentCulture;
-                    //options.SerializerSettings.Converters.Add(new DecimalFormatConverter());
                 })
                 .ConfigureApiBehaviorOptions(options =>
                 {
@@ -77,6 +86,8 @@ namespace BP.API
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 //app.UseHsts();
             }
+
+            app.UseGlobalExceptionHandler(Configuration, env);
 
             //app.UseHttpsRedirection();
             app.UseMvc();
