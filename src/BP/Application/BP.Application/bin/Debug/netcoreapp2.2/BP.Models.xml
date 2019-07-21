@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BP.Models</name>
+    </assembly>
+    <members>
+        <member name="P:BP.Models.Shared.Validation.ValidationResponseModel.Property">
+            <summary>
+            Nome da propriedade.
+            </summary>
+        </member>
+        <member name="P:BP.Models.Shared.Validation.ValidationResponseModel.Errors">
+            <summary>
+            Erros.
+            </summary>
+        </member>
+        <member name="F:BP.Models.ViewModels.Core.MDR.BandeiraTipoModel.Visa">
+            <summary>
+            Bandeira Visa
+            </summary>
+        </member>
+        <member name="F:BP.Models.ViewModels.Core.MDR.BandeiraTipoModel.Master">
+            <summary>
+            Bandeira Master
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.MDR.MdrGetResposeModel.Adquirente">
+            <summary>
+            Nome da Adquirente
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.MDR.MdrGetResposeModel.Taxas">
+            <summary>
+            Taxas da Adquirente
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.MDR.TaxaGetResponseModel.Bandeira">
+            <summary>
+            Bandeira que a Taxa é aplicada
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.MDR.TaxaGetResponseModel.Credito">
+            <summary>
+            Percentual de Taxa da Transcation do tipo Crédito
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.MDR.TaxaGetResponseModel.Debito">
+            <summary>
+            Percentual de Taxa da Transcation do tipo Débito
+            </summary>
+        </member>
+        <member name="F:BP.Models.ViewModels.Core.MDR.TipoTransactionModel.Debito">
+            <summary>
+            Transaction do Tipo Débito
+            </summary>
+        </member>
+        <member name="F:BP.Models.ViewModels.Core.MDR.TipoTransactionModel.Credito">
+            <summary>
+            Transaction do Tipo Crédito
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.Transaction.TransactionPostRequestModel.Valor">
+            <summary>
+            Valor da Transaction. Faixa de permitida de 0.01 até 999999999999999.
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.Transaction.TransactionPostRequestModel.Adquirente">
+            <summary>
+            Identificador da Adquirente
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.Transaction.TransactionPostRequestModel.Bandeira">
+            <summary>
+            Bandeira da Transaction
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.Transaction.TransactionPostRequestModel.Tipo">
+            <summary>
+            Tipo da Transaction
+            </summary>
+        </member>
+        <member name="P:BP.Models.ViewModels.Core.Transaction.TransactionTaxaGetResponseModel.ValorLiquido">
+            <summary>
+            Valor da Transaction após Debitar a Taxa MDR
+            </summary>
+        </member>
+    </members>
+</doc>

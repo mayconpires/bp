@@ -1,6 +1,7 @@
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\bin\Debug\netcoreapp2.2\BP.Infra.Log.deps.json
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\bin\Debug\netcoreapp2.2\BP.Infra.Log.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\bin\Debug\netcoreapp2.2\BP.Infra.Log.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\obj\Debug\netcoreapp2.2\BP.Infra.Log.csprojAssemblyReference.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\obj\Debug\netcoreapp2.2\BP.Infra.Log.csproj.CoreCompileInputs.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\obj\Debug\netcoreapp2.2\BP.Infra.Log.AssemblyInfoInputs.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.Infra.Log\obj\Debug\netcoreapp2.2\BP.Infra.Log.AssemblyInfo.cs

@@ -29,7 +29,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace BP.API
 {
-    public class Startup
+    public partial class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -59,17 +59,18 @@ namespace BP.API
                 {
                     options.SerializerSettings.Converters.Add(new StringEnumConverter { CamelCaseText = false });
                     options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-                    //options.SerializerSettings.Culture = CultureInfo.CurrentCulture;
                 })
                 .ConfigureApiBehaviorOptions(options =>
                 {
                     options.SuppressUseValidationProblemDetailsForInvalidModelStateResponses = true;
-                    
+
                 });
 
             services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly);
-            //services.AddMediatR(typeof(Startup));
-            //services.AddSingleton<IObjectModelValidator>(new NullObjectModelValidator());
+
+
+
+            ConfigureSwaggerService(services);
 
             Injector.RegisterServices(services: services, configuration: Configuration);
         }
@@ -85,11 +86,14 @@ namespace BP.API
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 //app.UseHsts();
+                //app.UseHttpsRedirection();
             }
+            app.UseStaticFiles();
 
             app.UseGlobalExceptionHandler(Configuration, env);
 
-            //app.UseHttpsRedirection();
+            ConfigureSwagger(app, env);
+
             app.UseMvc();
         }
     }

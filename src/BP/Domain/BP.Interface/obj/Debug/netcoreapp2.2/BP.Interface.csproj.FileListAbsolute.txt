@@ -17,6 +17,7 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Interface.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Models.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Models.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Debug\netcoreapp2.2\BP.Models.xml
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.csprojAssemblyReference.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.csproj.CoreCompileInputs.cache
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Debug\netcoreapp2.2\BP.Interface.AssemblyInfoInputs.cache
