@@ -1,6 +1,6 @@
 # Desafio Braspag - API de Pagamento
 
-## Tecnologias e padrões utilizados 
+## Tecnologias e Padrões Utilizados 
 
 - .Net Core 2.2
 
@@ -47,22 +47,22 @@ O Xunit e Fluent Assertions foram os frameworks utilizados. A tag [Theory] foi u
 
 - **Teste de Integração**
 
-Para garantir que os componentes do sistema estão funcionando em ambiente de produção com qualidade foi utilizado o Postman Runner 
-com um Dataset de 12 transactions diferentes para serem incluídos no endpoint de transaction cada retorno do valor líquido foi comparado
-com o valor esperado informado no dataset.
+Para garantir que os componentes do sistema estão funcionando em ambiente de produção com qualidade. 
+Foi utilizado o Postman Runner com uma Massa de Dados de 12 transactions diferentes para serem incluídas no
+endpoint de Transaction. Cada retorno do Valor Líquido foi comparado com o valor esperado informado na massa de dados.
 
-**Passos para o testes de integração**
+**Passos para os Testes de Integração**
 
 1. Criação de uma planilha no Calc com a taxa de todas as adquirentes para cada bandeira e tipo de transação. 
 A planilha forneceu a prova real para os testes de integração.
 
-2. Criação de um Dataset em formato Json para ser importado pelo Postman a cada execução do teste de integração no Runner.
+2. Criação de um Dataset em formato Json para ser importado no Postman a cada execução do teste de integração no Runner.
 
 3. Desenvolvimento dos Testes na Aba Test do Postman no formato BDD - Behavior Driven Development.
 
-4. Execução do Teste no Runner do Postman importando a massa de dados criado no 2º passo.
+4. Execução dos Testes no Runner do Postman importando a massa de dados criada no 2º passo.
 
-5. Avaliação do resultado do Runner para verificar se retornou tudo com sucesso.
+5. Por fim a avaliação do resultado do Runner para verificar se retornou tudo com sucesso.
  
 
 
