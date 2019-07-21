@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\BP.API.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\BP.API.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,9 +30,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="BP.API.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="log\" />
   </ItemGroup>
 
 </Project>

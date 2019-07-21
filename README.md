@@ -2,11 +2,11 @@
 
 ## Tecnologias e Padrões Utilizados 
 
-- .Net Core 2.2
+- **Framework** .Net Core 2.2 com C#
 
-- IoC (Inversion of Control), MVC, DDD, CQRS, Mediator, Repository, Factory, TLD com XUnit e BDD. 
+- **Padrões:** IoC (Inversion of Control), MVC, DDD, CQRS, Mediator, Repository, Factory, TLD com XUnit e BDD. 
 
-- Log e tratamento de erros: Para logar as exceptions foi utilizado o Serilog com um midleware para captura automática das exceptions.
+- **Log e tratamento de erros:** Para logar as exceptions foi utilizado o Serilog com um midleware para captura automática das exceptions.
 Para padronizar o retorno das exceptions para os usuários foi utilizado o View Model ProblemDetails e adicionando o Content-Type application/problem+json.
 Exemplo do retorno de uma exception: 
 {

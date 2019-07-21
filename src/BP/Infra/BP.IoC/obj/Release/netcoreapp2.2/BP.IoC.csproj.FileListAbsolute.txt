@@ -20,3 +20,4 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\obj\Release\netcoreapp2.2\B
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\obj\Release\netcoreapp2.2\BP.IoC.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Release\netcoreapp2.2\BP.Infra.Log.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Release\netcoreapp2.2\BP.Infra.Log.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Infra\BP.IoC\bin\Release\netcoreapp2.2\BP.Models.xml

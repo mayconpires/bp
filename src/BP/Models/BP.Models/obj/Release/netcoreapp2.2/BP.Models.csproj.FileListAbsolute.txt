@@ -7,3 +7,4 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Models\BP.Models\obj\Release\netcoreapp2
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Models\BP.Models\obj\Release\netcoreapp2.2\BP.Models.AssemblyInfo.cs
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Models\BP.Models\obj\Release\netcoreapp2.2\BP.Models.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Models\BP.Models\obj\Release\netcoreapp2.2\BP.Models.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Models\BP.Models\bin\Release\netcoreapp2.2\BP.Models.xml

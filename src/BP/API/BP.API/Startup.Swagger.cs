@@ -12,6 +12,7 @@ using BP.API.Shared.Swagger;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.PlatformAbstractions;
 using Swashbuckle.AspNetCore.Examples;
+using BP.Infra.Log.Loggers;
 
 namespace BP.API
 {
@@ -45,12 +46,12 @@ namespace BP.API
         {
             app.UseStaticFiles();
 
-            if (env.IsDevelopment())
+            app.UseSwagger(c => c.PreSerializeFilters.Add((swagger, httpReq) =>
             {
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs"));
-            }
+                swagger.Host = httpReq.Host.Value;
+            }));
 
-            app.UseSwagger(c => c.PreSerializeFilters.Add((swagger, httpReq) => swagger.Host = httpReq.Host.Value));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs"));
         }
 
     }

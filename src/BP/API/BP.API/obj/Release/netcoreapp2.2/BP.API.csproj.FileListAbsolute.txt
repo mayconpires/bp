@@ -27,3 +27,6 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Release\netcoreapp2.2\BP.
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\obj\Release\netcoreapp2.2\BP.API.pdb
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Release\netcoreapp2.2\BP.Infra.Log.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Release\netcoreapp2.2\BP.Infra.Log.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Release\netcoreapp2.2\README.md
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Release\netcoreapp2.2\BP.Models.xml
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\API\BP.API\bin\Release\netcoreapp2.2\BP.API.xml

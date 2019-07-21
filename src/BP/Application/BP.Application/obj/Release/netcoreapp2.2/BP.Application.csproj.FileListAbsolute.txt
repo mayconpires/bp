@@ -14,3 +14,4 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Application\BP.Application\obj\Release\n
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Application\BP.Application\obj\Release\netcoreapp2.2\BP.Application.csproj.CopyComplete
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Application\BP.Application\obj\Release\netcoreapp2.2\BP.Application.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Application\BP.Application\obj\Release\netcoreapp2.2\BP.Application.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Application\BP.Application\bin\Release\netcoreapp2.2\BP.Models.xml

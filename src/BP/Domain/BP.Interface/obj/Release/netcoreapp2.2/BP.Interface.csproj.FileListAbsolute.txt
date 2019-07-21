@@ -10,3 +10,4 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Release\netcorea
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Release\netcoreapp2.2\BP.Interface.csproj.CopyComplete
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Release\netcoreapp2.2\BP.Interface.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\obj\Release\netcoreapp2.2\BP.Interface.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Interface\bin\Release\netcoreapp2.2\BP.Models.xml
