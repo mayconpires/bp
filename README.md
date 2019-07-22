@@ -36,7 +36,9 @@ Body de Retorno:
 
 [{"Property":"Valor","Errors":["O Valor da Transaction deve conter no máximo duas casas decimais."]}].
 Para implementar esse padrão foi criado um ActionFilter que deve ser adicionado em cada controller do projeto.
- 
+
+![Json Retorno](https://raw.githubusercontent.com/mayconpires/bp/master/img/Validacao-View-Model.PNG)
+
  - **Validações de negócios na API:**
 
 Para validar as regras de negócio foi utilizado  uma classe de Notification para agrupar todas as inconsistências.
@@ -47,12 +49,17 @@ Body de Retorno:
 
 [{"Code":"MDR01","Value":"A Adquirente não existe"}]
 
+![Json Retorno](https://raw.githubusercontent.com/mayconpires/bp/master/img/Validacao-Negocio.PNG)
+
 ## Como os Teste foram Feitos
 
 - **Teste Unitário**
 
 O foco dos testes unitários foram nos cálculos do Valor Líquido da Transaction com BDD. Foram testados todas as taxas das 3 adquirentes: A, B e C.
 O Xunit e Fluent Assertions foram os frameworks utilizados. A tag [Theory] foi utilizado para realizar esses testes com diversos inputs de entrada.
+
+
+![14 Testes Unitários](https://raw.githubusercontent.com/mayconpires/bp/master/img/Teste-Unitario-BDD-Evidencia.PNG)
 
 - **Teste de Integração**
 
