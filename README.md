@@ -12,6 +12,7 @@
 - Download do Environment do Postman:
 https://raw.githubusercontent.com/mayconpires/bp/master/src/BP/Tests/IntegrationTest/AmbientePostman_Azure-BP.postman_environment.json
 
+![Postman Environment](https://raw.githubusercontent.com/mayconpires/bp/master/img/Postman-Environment-Producao.PNG)
 
 ## Tecnologias e Padrões Utilizados 
 
