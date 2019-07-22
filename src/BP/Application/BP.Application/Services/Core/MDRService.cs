@@ -29,8 +29,6 @@ namespace BP.Application.Services.Core
 
             var mdrsModel =  _mapper.Map<IEnumerable<MdrGetResposeModel>>(mdrs);
 
-            
-
             return mdrsModel;
         }
 

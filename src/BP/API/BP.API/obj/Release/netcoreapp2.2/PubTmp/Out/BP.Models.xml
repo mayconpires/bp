@@ -14,6 +14,45 @@
             Erros.
             </summary>
         </member>
+        <member name="T:BP.Models.ViewModelExamples.Core.MDR.MdrGetResposeModelExample">
+            <summary>
+            Exemplo de Retorno da MdrGetResposeModel
+            </summary>
+        </member>
+        <member name="M:BP.Models.ViewModelExamples.Core.MDR.MdrGetResposeModelExample.GetExamples">
+            <summary>
+            Pega os exemplos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BP.Models.ViewModelExamples.Core.MDR.MdrGetResposeModelExample.GetTaxaGetResponseModel">
+            <summary>
+            Pega os exemplos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BP.Models.ViewModelExamples.Core.Transaction.TransactionPostRequestModelExample">
+            <summary>
+            Exemplo de Retorno da MdrGetResposeModel
+            </summary>
+        </member>
+        <member name="M:BP.Models.ViewModelExamples.Core.Transaction.TransactionPostRequestModelExample.GetExamples">
+            <summary>
+            Pega os exemplos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BP.Models.ViewModelExamples.Core.Transaction.TransactionTaxaGetResponseModelExample">
+            <summary>
+            Exemplo de Retorno da TransactionTaxaGetResponseModel
+            </summary>
+        </member>
+        <member name="M:BP.Models.ViewModelExamples.Core.Transaction.TransactionTaxaGetResponseModelExample.GetExamples">
+            <summary>
+            Pega os exemplos
+            </summary>
+            <returns></returns>
+        </member>
         <member name="F:BP.Models.ViewModels.Core.MDR.BandeiraTipoModel.Visa">
             <summary>
             Bandeira Visa

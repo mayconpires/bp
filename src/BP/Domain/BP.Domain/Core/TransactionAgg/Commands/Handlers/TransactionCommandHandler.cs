@@ -41,7 +41,6 @@ namespace BP.Domain.Core.TransactionAgg.Commands.Handlers
                                                     tipo: transactionCmd.Tipo, 
                                                     bandeira: transactionCmd.Bandeira);
 
-
             newTransaction = _transactionRepository.Add(newTransaction);
 
             return newTransaction;

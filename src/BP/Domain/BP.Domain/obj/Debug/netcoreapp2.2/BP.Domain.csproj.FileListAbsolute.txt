@@ -17,3 +17,4 @@ C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.AssemblyInfo.cs
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.dll
 C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.pdb
+C:\Users\mssantos6\Desktop\BP\bp\src\BP\Domain\BP.Domain\obj\Debug\netcoreapp2.2\BP.Domain.csprojAssemblyReference.cache

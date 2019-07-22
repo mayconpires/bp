@@ -81,7 +81,11 @@ endpoint de Transaction. Cada retorno do Valor Líquido foi comparado com o valo
 1. Criação de uma planilha no Calc com a taxa de todas as adquirentes para cada bandeira e tipo de transação. 
 A planilha forneceu a prova real para os testes de integração.
 
-2. Criação de um Dataset em formato Json para ser importado no Postman a cada execução do teste de integração no Runner.
+![Planilha](https://raw.githubusercontent.com/mayconpires/bp/master/img/Planilha-Prova-Real-Valores-das-Adquirentes.PNG)
+
+https://github.com/mayconpires/bp/blob/master/src/BP/Tests/IntegrationTest/Transaction_ValorLiquido_ProvaReal.xls?raw=true
+
+2. Criação de uma massa de dados em formato Json para ser importado no Postman a cada execução do teste de integração no Runner.
 
 3. Desenvolvimento dos Testes na Aba Test do Postman no formato BDD - Behavior Driven Development.
 

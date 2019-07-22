@@ -36,6 +36,5 @@ namespace BP.Domain.Core.TransactionAgg
 
         public TipoTransaction Tipo { get; private set; }
 
-
     }
 }

@@ -4,6 +4,19 @@
         <name>BP.API</name>
     </assembly>
     <members>
+        <member name="M:BP.API.Controllers.MdrController.Get">
+            <summary>
+            Obtém as taxas de todas as Adquirentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BP.API.Controllers.TransactionController.Post(BP.Models.ViewModels.Core.Transaction.TransactionPostRequestModel)">
+            <summary>
+            Cria uma transaction para uma Adquirente
+            </summary>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
         <member name="M:BP.API.Shared.Extensions.ExceptionHandlerExtensions.UseGlobalExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
             <summary>
             Midleware para capturar as exceptions.

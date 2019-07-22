@@ -25,6 +25,5 @@ namespace BP.Domain.Core.MdrAgg.EntityChild
         public BandeiraTipo Bandeira { get; private set; }
         public decimal Credito { get; private set; }
         public decimal Debito { get; private set; }
-
     }
 }
