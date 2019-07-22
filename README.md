@@ -8,6 +8,10 @@
 
 - http://191.232.162.9/
 - Documentação da API: http://191.232.162.9/swagger
+- Collection do Postman para download: https://www.getpostman.com/collections/b72659cd7ff13553732a
+- Download do Environment do Postman:
+https://raw.githubusercontent.com/mayconpires/bp/master/src/BP/Tests/IntegrationTest/AmbientePostman_Azure-BP.postman_environment.json
+
 
 ## Tecnologias e Padrões Utilizados 
 
