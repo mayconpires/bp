@@ -72,6 +72,10 @@ A planilha forneceu a prova real para os testes de integração.
 4. Execução dos Testes no Runner do Postman importando a massa de dados criada no 2º passo.
 
 5. Por fim a avaliação do resultado do Runner para verificar se retornou tudo com sucesso.
+
+- Evidência do Teste
+
+![Postman Runner Execução de 12 Testes](https://raw.githubusercontent.com/mayconpires/bp/master/img/Postman-Runner-Teste-Integracao-Evidencia.PNG)
  
 
 
