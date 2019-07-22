@@ -14,6 +14,10 @@ https://raw.githubusercontent.com/mayconpires/bp/master/src/BP/Tests/Integration
 
 ![Postman Environment](https://raw.githubusercontent.com/mayconpires/bp/master/img/Postman-Environment-Producao.PNG)
 
+- Endpoint MDR: Get http://191.232.162.9/mdr
+
+- Endpoint Transaction: Post + Body http://191.232.162.9/transaction
+
 ## Tecnologias e Padrões Utilizados 
 
 - **Framework** .Net Core 2.2 com C#
